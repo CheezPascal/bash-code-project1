@@ -20,11 +20,13 @@ list_users() {
 
 # Main menu
 while true; do
-    echo "User Management Script"
-    echo "1. Add a User"
-    echo "2. Delete a User"
-    echo "3. List All Users"
-    echo "4. Exit"
+    echo "$(printf '#%.0s' {1..10}) User Management Script $(printf '#%.0s' {1..10})"
+    echo "$(printf '#%.0s' {1..20})"
+    echo ""
+    echo "$(printf '#%.0s' {1..10}) 1. Add a User $(printf '#%.0s' {1..10})"
+    echo "$(printf '#%.0s' {1..10}) 2. Delete a User $(printf '#%.0s' {1..10})"
+    echo "$(printf '#%.0s' {1..10}) 3. List All Users $(printf '#%.0s' {1..10})"
+    echo "$(printf '#%.0s' {1..10}) 4. Exit $(printf '#%.0s' {1..10})"
     read -p "Choose an option [1-4]: " choice
 
     case $choice in
