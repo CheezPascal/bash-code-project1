@@ -24,10 +24,10 @@ while true; do
     echo "$(printf '#%.0s' {1..10}) User Management Script $(printf '#%.0s' {1..6})"
     echo "$(printf '#%.0s' {1..40})"
     echo ""
-    echo "$(printf '#%.0s' {1..10}) 1. Add a User     $(printf '#%.0s' {1..10})"
-    echo "$(printf '#%.0s' {1..10}) 2. Delete a User  $(printf '#%.0s' {1..10})"
-    echo "$(printf '#%.0s' {1..10}) 3. List All Users $(printf '#%.0s' {1..10})"
-    echo "$(printf '#%.0s' {1..10}) 4. Exit $(printf '#%.0s' {1..10})"
+    echo "$(printf '#%.0s' {1..10}) 1. Add a User     $(printf '#%.0s' {1..11})"
+    echo "$(printf '#%.0s' {1..10}) 2. Delete a User  $(printf '#%.0s' {1..11})"
+    echo "$(printf '#%.0s' {1..10}) 3. List All Users $(printf '#%.0s' {1..11})"
+    echo "$(printf '#%.0s' {1..10}) 4. Exit           $(printf '#%.0s' {1..11})"
     echo "$(printf '#%.0s' {1..40})"
     read -p "Choose an option [1-4]: " choice
 
