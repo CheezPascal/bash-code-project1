@@ -21,7 +21,7 @@ list_users() {
 # Main menu
 while true; do
     echo "$(printf '#%.0s' {1..40})"
-    echo "$(printf '#%.0s' {1..10}) User Management Script $(printf '#%.0s' {1..10})"
+    echo "$(printf '#%.0s' {1..10}) User Management Script $(printf '#%.0s' {1..6})"
     echo "$(printf '#%.0s' {1..40})"
     echo ""
     echo "$(printf '#%.0s' {1..10}) 1. Add a User     $(printf '#%.0s' {1..10})"
