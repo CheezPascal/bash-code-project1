@@ -40,6 +40,6 @@ while true; do
         2) delete_user ;;
         3) list_users ;;
         4) echo "Exiting..."; exit 0 ;;
-        *) echo "Invalid option. Please choose again." ;;
+        *) echo "Invalid option. Please choose again, from 1 to 4." ;;
     esac
 done
